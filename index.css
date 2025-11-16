@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+#sub-head {
+    background: #2193b0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-top: 0;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    color: white;
+}
+
+#title {
+    text-align: center;
+    font-size: 400%;
+    margin-top: 0;
+}
+
+#course-school {
+    text-align: center;
+}
+
+.students {
+    margin: 1%;
+}
+
+#index {
+    background: rgb(226, 226, 226);
+    margin-right: 30%;
+    margin-left: 30%;
+    margin-top: 2%;
+    padding: 2%;
+}
+
+#index a {
+    transition: color 0.3s ease-in-out;
+}
+
+*:link {
+    color: #2193b0;
+}
+
+*:visited {
+    color: rgb(0, 104, 145);
+}
+
+*:hover {
+    color: rgb(0, 0, 0);
+}
+
+.article {
+    margin: 4%;
+}
+
+.article h1 {
+    clear: both;
+    margin-top: 3%;
+}
+
+.float .p1 {
+    margin-top: 6%;
+}
+
+.article:not(.float) img {
+    width: 90%;
+}
+
+.p1 {
+    margin-top: -2%;
+}
+
+.img-article {
+    margin: 4%;
+}
+
+.float img {
+    float: left;
+    max-height: 500px;
+}
+
+#aldea_global {
+
+}
+
+footer {
+    background: rgb(58, 58, 58);
+    padding: 10%;
+    text-align: center;
+}
+
+footer strong {
+    color: white;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+footer h2 {
+    color: rgb(240, 240, 240);
+    font-weight: 1;
+    font-size: 150%;
+    margin: 0%;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer li {
+    padding-left: -100%;
+    text-align: left;
+    margin-left: 38%;
+    margin-right: 30%;
+}
+
+@media (max-width: 700px) {
+    #index {
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+}
+
+@media (max-width: 375px) {
+    #index {
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 0;
+        min-height: none;
+        min-width: 90%;
+    }
+}
